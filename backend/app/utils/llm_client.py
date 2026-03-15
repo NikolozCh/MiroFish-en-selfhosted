@@ -89,7 +89,7 @@ class LLMClient:
             messages=messages,
             temperature=temperature,
             max_tokens=max_tokens,
-            response_format={"type": "json_object"}
+            # response_format={"type": "json_object"}
         )
         # Strip optional surrounding Markdown code fences
         cleaned_response = response.strip()

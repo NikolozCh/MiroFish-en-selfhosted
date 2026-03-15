@@ -58,3 +58,7 @@ backend/uploads/
 
 # Docker 数据
 data/
+
+# Custom files
+cr-pass
+custom-scripts/
